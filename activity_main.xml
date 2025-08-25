@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent" android:layout_height="match_parent">
+  <LinearLayout
+    android:orientation="vertical" android:padding="16dp"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+    <EditText
+      android:id="@+id/edtBackend"
+      android:layout_width="match_parent" android:layout_height="wrap_content"
+      android:hint="http://10.0.2.2:8080 (opsional backend)"/>
+    <Button android:id="@+id/btnScan"
+      android:layout_width="match_parent" android:layout_height="wrap_content"
+      android:text="Quick Scan (Offline + Reputasi)"/>
+    <Button android:id="@+id/btnExplain"
+      android:layout_width="match_parent" android:layout_height="wrap_content"
+      android:text="Jelaskan App Teratas"/>
+    <Button android:id="@+id/btnRemediate"
+      android:layout_width="match_parent" android:layout_height="wrap_content"
+      android:text="Copot App Teratas"/>
+    <TextView
+      android:id="@+id/txtResult"
+      android:layout_width="match_parent" android:layout_height="wrap_content"
+      android:paddingTop="12dp" android:textIsSelectable="true"
+      android:text="Hasil akan muncul di sini..."/>
+  </LinearLayout>
+</ScrollView>

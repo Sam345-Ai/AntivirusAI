@@ -1,0 +1,24 @@
+{
+  "rules": [
+    {
+      "key": "sms_pair",
+      "weight": 0.15,
+      "reason": "Akses kirim/terima SMS berisiko tagihan/phishing."
+    },
+    {
+      "key": "overlay",
+      "weight": 0.12,
+      "reason": "Overlay bisa dipakai untuk phishing layar."
+    },
+    {
+      "key": "acc_service",
+      "weight": 0.2,
+      "reason": "Akses Accessibility rawan penyalahgunaan auto-click."
+    },
+    {
+      "key": "many_receivers",
+      "weight": 0.08,
+      "reason": "Receiver diekspos terlalu banyak."
+    }
+  ]
+}
